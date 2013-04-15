@@ -7,6 +7,8 @@
 \title{Uma nova abordagem para a troca de
        lampadas elétricas: utilizando um banquinho}
 
+\newcommand{\vetor}[1]{\textbf{#1}}
+
 \begin{document}
 
 \maketitle
@@ -38,11 +40,20 @@ $$I = \frac{V}{R}$$
 
 $$0=1+e^{j\pi}$$
 
-IDFT:
+IDFT (fórmula numero \ref{eq:idft}):
 
-$$x_n = \frac{1}{N}
+\begin{equation}
+\label{eq:idft}
+x_n = \frac{1}{N}
 \sum_{k=0}^{N-1} X_k \cdot
 e^{i2\pi kn/N}
-$$
+\end{equation}
+
+\begin{align}
+\nabla \cdot \vetor{E} & = \frac{\rho}{\epsilon_0} \\
+\nabla \cdot \vetor{B} & = 0 \\
+\nabla \times \vetor{E}
+& = - \frac{\partial \vetor{B}}{\partial t}
+\end{align}
 
 \end{document}
