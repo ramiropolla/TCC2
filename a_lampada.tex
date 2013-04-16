@@ -32,3 +32,21 @@ seguinte forma:
 \caption{Circuito elétrico da lâmpada}
 \label{fig:circuito_lampada}
 \end{figure}
+
+A lâmpada incandescente, sendo ela representada eletricamente por
+uma resistência, obedece à relação Volt-Apere da Equação \ref{eq:vri}.
+
+\begin{equation}
+\label{eq:vri}
+V=R I
+\end{equation}
+
+Sendo representada graficamente de acordo com a Figura \ref{fig:vri}.
+
+\begin{tikzpicture}
+\label{fig:vri}
+\centering
+\begin{axis}[xlabel=Corrente,ylabel=Tensão]
+\addplot+[domain=0:0.5] {484*x};
+\end{axis}
+\end{tikzpicture}
