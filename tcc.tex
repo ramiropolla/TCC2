@@ -5,6 +5,7 @@
 
 \usepackage{amsmath}
 \usepackage{indentfirst}
+\usepackage{multirow}
 
 \author{Eu mesmo}
 \date{Hoje}
@@ -40,7 +41,8 @@ medianas de altura e peso do povo brasileiro por sexo.
   	\centering
   	\begin{tabular}{|l|r|r|}
   	\hline
-    Faixa etária & \multicolumn{2}{|c|}{Altura (cm)} \\ \hline
+    \multirow{2}{*}{Faixa etária} & \multicolumn{2}{|c|}{Altura (cm)} \\ \cline{2-3}
+                 & Masculino & Feminino \\ \hline
     18      anos & 172,6 & 161,1 \\
     19      anos & 172,0 & 161,2 \\
     20 a 24 anos & 173,0 & 161,1 \\
