@@ -13,6 +13,8 @@
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.8}
 
+\usepackage{tikz-timing}
+
 \author{Eu mesmo}
 \date{Hoje}
 \title{Uma nova abordagem para a troca de
@@ -77,5 +79,14 @@ Equacoes de maxwell (\ref{eq:max1} e \ref{eq:max2}).
 \mu_0\vetor{J} + \mu_0 \epsilon_0
 \frac{\partial \vetor{E}}{\partial t}
 \end{align}
+
+\begin{figure}
+ \begin{center}
+  \begin{tikztimingtable}
+   clk & 20{C} \\
+   cs  & HHHLLLHHHLLLHLTTTTTT \\
+  \end{tikztimingtable}
+ \end{center}
+\end{figure}
 
 \end{document}
