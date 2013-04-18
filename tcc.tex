@@ -15,6 +15,9 @@
 
 \usepackage{rotating}
 \usepackage{tikz-timing}
+\usepackage{listings}
+\usepackage{color}
+\lstset{language=C,frame=single}
 
 \author{Eu mesmo}
 \date{Hoje}
@@ -99,6 +102,15 @@ Vamos fazer uma referência ao livro do \emph{Franklin} \cite{franklin}.
 Inclinando-se para a esquerda faz a torre Eiffel parecer menor: \cite{eerland2011leaning}.
 
 a b c d abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz e f g.
+
+\begin{lstlisting}
+#include <stdio.h>
+int main(int argc, char *argv[])
+{
+	printf("Hello!\n");
+    return 0;
+}
+\end{lstlisting}
 
 \bibliography{tcc}
 \bibliographystyle{plain}
