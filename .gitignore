@@ -169,3 +169,6 @@ pip-log.txt
 *.dvi
 *.bbl
 *.blg
+*.idx
+*.ilg
+*.ind
