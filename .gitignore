@@ -172,3 +172,8 @@ pip-log.txt
 *.idx
 *.ilg
 *.ind
+*.las
+*.lof
+*.lot
+*.lsb
+*.toc
